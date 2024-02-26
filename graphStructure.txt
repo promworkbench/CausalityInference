@@ -1,0 +1,10 @@
+Edges:
+Resource_:_Confirmation_of_receipt o-o Resource_:_T02_Check_confirmation_of_receipt
+Resource_:_T02_Check_confirmation_of_receipt o-o Trace_Delay
+Adjacency:
+Resource_:_Confirmation_of_receipt
+ ///   o-o Resource_:_T02_Check_confirmation_of_receipt
+Trace_Delay
+ /// Resource_:_T02_Check_confirmation_of_receipt o-o  
+Resource_:_T02_Check_confirmation_of_receipt
+ /// Resource_:_Confirmation_of_receipt o-o   ///   o-o Trace_Delay
